@@ -59,6 +59,7 @@ def show_results():
 # Главное окно
 root = tk.Tk()
 root.title("Подбор сотрудников")
+root.configure(bg='lightblue')
 frame = ttk.Frame(root, padding=10)
 frame.pack(fill='x')
 
